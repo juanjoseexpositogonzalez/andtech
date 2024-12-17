@@ -2,6 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
+body {
+  @apply bg-gradient-to-b from-[#E6E7FB] to-[#F7F7FE];
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+}
+
 /* :root {
   --background: #ffffff;
   --foreground: #171717;

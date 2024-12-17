@@ -4,7 +4,7 @@ import Image from 'next/image';
 
 const HeroSection: React.FC = () => {
     return (
-        <section className="bg-[#E6E7FB] px-8 py-16 flex items-center justify-center">
+        <section className="px-8 py-16 flex items-center justify-center">
             <div className="max-w-7xl w-full flex flex-col md:flex-row items-center">
                 {/* Texto del hero */}
                 <div className="flex-1 text-left">

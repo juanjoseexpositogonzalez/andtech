@@ -5,7 +5,7 @@ import Image from 'next/image';
 
 const Header: React.FC = () => {
     return (
-        <header className="bg-[#E6E7FB] py-4 px-8 shadow flex items-center justify-between w-full">
+        <header className="py-4 px-8 shadow flex items-center justify-between w-full">
             {/* Logo a la izquierda */}
            <div className="flex items-center">
             <Link href="/">

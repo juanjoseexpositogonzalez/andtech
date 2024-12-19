@@ -1,4 +1,3 @@
-// src/components/OurServices.tsx
 import React from 'react';
 import Link from 'next/link'; // Navegación interna
 import Image from 'next/image';

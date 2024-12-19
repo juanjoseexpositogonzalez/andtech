@@ -1,0 +1,25 @@
+module.exports = {
+    parser: '@typescript-eslint/parser',
+    plugins: ['import', '@typescript-eslint'],
+    extends: [
+        'plugin:@typescript-eslint/recommended',
+        'plugin:import/errors',
+        'plugin:import/warnings',
+        'plugin:import/typescript',
+    ],
+    rules: {
+        'import/no-unresolved': 'error',
+        'import/named': 'error',
+        'import/default': 'error',
+        'import/namespace': 'error',
+        'import/no-restricted-paths': 'error',
+        'import/no-absolute-path': 'error',
+        'import/no-dynamic-require': 'error',
+        'import/no-internal-modules': 'off',
+        'import/no-webpack-loader-syntax': 'error',
+        'import/no-self-import': 'error',
+        'import/no-cycle': 'error',
+        'import/no-useless-path-segments': 'error',
+        'import/no-relative-parent-imports': 'off',
+    },
+};

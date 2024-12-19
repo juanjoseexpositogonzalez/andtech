@@ -1,4 +1,3 @@
-// src/components/herosection.tsx
 import React from 'react';
 import Image from 'next/image';
 
@@ -33,7 +32,7 @@ const HeroSection: React.FC = () => {
 
                 {/* Imagen */}
                 <div className="flex-1 mt-8 md:mt-0 md:ml-8">
-                    <Image 
+                    <Image
                         src="/hero.png"
                         alt="Digital world"
                         width={500}
@@ -49,9 +48,9 @@ const HeroSection: React.FC = () => {
                 <div className="flex justify-left iterms-center flex-wrap gap-8 mt-4">
                     {logos.map((logo, index) => (
                         <div key={index} className="w-28 h-auto">
-                            <Image 
+                            <Image
                                 src={logo}
-                                alt={`logo ${index +1}`}
+                                alt={`logo ${index + 1}`}
                                 width={120}
                                 height={60}
                                 className="object-contain"

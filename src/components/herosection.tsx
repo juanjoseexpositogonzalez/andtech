@@ -3,10 +3,10 @@ import React from 'react';
 import Image from 'next/image';
 
 const logos = [
-    '/mango-4.png',
-    '/brother.png',
-    '/gaastra.png',
-    '/eco.png',
+    '/logos/mango-4.png',
+    '/logos/brother.png',
+    '/logos/gaastra.png',
+    '/logos/eco.png',
 ];
 
 const HeroSection: React.FC = () => {

@@ -17,35 +17,35 @@ const Header: React.FC = () => {
            <nav>
             <ul className="flex items-center space-x-6 text-black text-sm text-medium">
                 <li>
-                    <Link href="/" className="hover:text-gray-500">Home</Link>
+                    <Link href="/" className="hover:text-gray-500 font-bold">Home</Link>
                 </li>
                 <div className="h-6 w-px bg-gray-300" />
 
                 <li>
-                    <Link href="/services" className="hover:text-gray-500">Services</Link>
+                    <Link href="/services" className="hover:text-gray-500 font-bold">Services</Link>
                 </li>
                 <div className="h-6 w-px bg-gray-300" />
 
                 <li>
-                    <Link href="/method" className="hover:text-gray-500">Method</Link>
+                    <Link href="/method" className="hover:text-gray-500 font-bold">Method</Link>
                 </li>
                 <div className="h-6 w-px bg-gray-300" />
                 
                 <li>
-                    <Link href="news/" className="hover:text-gray-500">News</Link>
+                    <Link href="news/" className="hover:text-gray-500 font-bold">News</Link>
                 </li>
                 <div className="h-6 w-px bg-gray-300" />
                 
                 {/* Botones */}
                 <li>
                     <Link href="contact">
-                        <button className="bg-purple-600 text-white px-6 py-2 rounded hover:bg-purple-600">
+                        <button className="bg-purple-600 text-white px-6 py-2 font-bold rounded hover:bg-purple-600">
                             Contact us
                         </button>
                     </Link>
                 </li>
                 <li>
-                    <button className="text-black px-4 hover:text-gray-500 transition">
+                    <button className="text-black px-4 hover:text-gray-500 font-bold transition">
                         Español
                     </button>
                 </li>
